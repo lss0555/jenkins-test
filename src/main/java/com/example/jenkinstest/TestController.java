@@ -11,4 +11,10 @@ public class TestController {
     public String getName(@RequestParam("name")String name){
         return "your name is :"+name;
     }
+
+    @GetMapping("/getName1")
+    public String getName1(@RequestParam("name")String name){
+        return "1your name is :"+name;
+    }
+
 }
