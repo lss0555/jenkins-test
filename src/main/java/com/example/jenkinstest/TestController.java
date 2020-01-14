@@ -12,7 +12,7 @@ public class TestController {
         return "your name is :"+name;
     }
 
-    @GetMapping("/getName11111")
+    @GetMapping("/getName1111122")
     public String getName1(@RequestParam("name")String name){
         return "1your name is :"+name;
     }
